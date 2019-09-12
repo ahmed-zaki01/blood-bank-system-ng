@@ -1,4 +1,9 @@
 /* start navbar */
+
+nav {
+  z-index: 10000000 !important;
+}
+
 #navbarSupportedContent {
     padding: 5px;
     border-top: 2px solid #e5e5e5;
@@ -7,6 +12,7 @@
   
   .navbarBGColorScroll {
     background-color: rgba(255, 122, 122, 0.7) !important;
+    transition: all 1s;
   }
   
   .layer {

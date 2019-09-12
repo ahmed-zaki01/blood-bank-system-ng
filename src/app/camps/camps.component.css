@@ -9,6 +9,11 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+a.direction {
+  margin-left: 15px;
+}
+
 .location a:hover,
 .location #loc1LINK:hover {
   color: #acbecc;
