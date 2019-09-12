@@ -1,1 +1,130 @@
-<p>send-request works!</p>
+<!-- request blood section -->
+
+<div class="request-blood d-flex align-items-center">
+
+  <div class="bg-overlay text-center w-100">
+    <h1 class="text-light w-50 mx-auto">Your Life Is Our Responsiblity, And We Are Here For You</h1>
+    <a id="go-request" href="#request" class="btn go-about-arrow d-block shadow-none">
+      <i class="fas fa-chevron-down text-white"></i></a>
+  </div>
+</div>
+
+<div class="request-blood-form py-5 row text-dark">
+  <div class="container-fluid row w-75 mx-auto">
+    <div class="emergency col-lg-4 px-5 py-5">
+      <h3 class="pb-4 text-uppercase">Emergency Cases</h3>
+      <div class="call-now pb-3">
+        <h4>Call Now</h4>
+        <h5 class="text-danger font-weight-bold">+86-932-123-456</h5>
+      </div>
+      <div class="addresses">
+
+        <ul class="list-unstyled d-inline-block">
+          <li>
+            <h4 class="d-inline-block">Address 1:</h4>
+          </li>
+          <li>
+            <h4 class="d-inline-block">Address 2:</h4>
+          </li>
+          <li>
+            <h4 class="d-inline-block">Address 3:</h4>
+          </li>
+        </ul>
+        <ul class="location list-unstyled d-inline-block">
+          <li>
+            <h4 class=" d-inline-block font-weight-bold mb-2">Egypt, Cairo</h4>
+          </li>
+          <li>
+            <h4 class="d-inline-block font-weight-bold">Egypt, Giza</h4>
+          </li>
+          <li>
+            <h4 class="d-inline-block font-weight-bold">Sudan, Khartoum</h4>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div id="request" class="register col-lg-8 px-2 py-5 ">
+      <div class="row justify-content-around form-group">
+        <h3 class="pb-4 text-uppercase px-0">Request For Blood Need</h3>
+        <div class="col-sm-2"></div>
+      </div>
+
+      <form>
+        <div class="row justify-content-around">
+          <div class="form-group col-lg-5 col-6">
+            <label for="name">Your Name:</label>
+            <input id="name" type="text" name="patient-name" class="form-control profile-info"
+              placeholder="Enter Your Name">
+          </div>
+          <div class="form-group col-lg-5 col-6">
+            <label for="email">Your Email:</label>
+            <input id="email" type="text" name="patient-email" class="form-control profile-info"
+              placeholder="Your Email">
+          </div>
+        </div>
+
+        <div class="row justify-content-around mt-5">
+          <div class="form-group col-lg-5 col-6">
+            <label for="phone-number">Your Phone Number:</label>
+            <input id="phone-number" type="text" name="patient-phone" class="form-control profile-info"
+              placeholder="Enter Your Phone Number">
+          </div>
+          <div class="form-group col-lg-5 col-6">
+            <label for="age">Your Age:</label>
+            <input id="age" type="number" name="patient-age" min="1" max="120" class="form-control profile-info"
+              placeholder="Enter Your Age">
+          </div>
+        </div>
+
+        <div class="row justify-content-around mt-5">
+
+          <div class="blood-group col-lg-5 col-6 form-group">
+            <label for="blood-group">Select Your Blood Group</label>
+            <select class="form-control" name="patient-blood-group" id="blood-group">
+              <option>A+</option>
+              <option>A-</option>
+              <option>B+</option>
+              <option>B-</option>
+              <option>O+</option>
+              <option>O-</option>
+              <option>AB+</option>
+              <option>AB-</option>
+            </select>
+          </div>
+          <div class="gender col-lg-5 col-6 mx-0 form-group" id="patient-gender">
+            <label style="display: block" for="patient-gender">Gender</label>
+            <div class="form-check-inline">
+              <input type="radio" name="patient-gender" id="male" class="form-check-input">
+              <label for="male" class="form-check-label">Male</label>
+            </div>
+            <div class="form-check-inline">
+              <input type="radio" name="patient-gender" id="female" class="form-check-input">
+              <label for="female" class="form-check-label">Female</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-around mt-5">
+          <div class="form-group col-lg-5 col-6">
+            <label for="till-date">Till Required Date:</label>
+            <input id="till-date" type="date" id="start" class="form-control" name="till-date" value="2019-09-10"
+              min="2019-09-10" max="2020-12-31">
+          </div>
+          <textarea name="more-details" class="form-control col-lg-5 col-4" id="more-details" cols="30" rows="5"
+            placeholder="More Details"></textarea>
+        </div>
+
+        <div class="row justify-content-around mt-5 form-group">
+          <div class="col-sm-6"></div>
+          <button type="submit" class="btn mt-5 btn-danger px-2 py-3 rounded-0 col-4 font-weight-bold">Submit Your
+            Request</button>
+
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- request blood section -->

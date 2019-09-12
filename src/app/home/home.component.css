@@ -1,0 +1,257 @@
+/******************* Haroon Style *******************/
+
+.section1 {
+    background-image: url("../../assets/images/section1-1.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+  }
+  
+  .section1 h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+  
+  .section1 p {
+    font-size: 25px;
+  }
+  
+  .section2 {
+    letter-spacing: 1px;
+  }
+  
+  .section2 h2 {
+    font-size: 40px;
+  }
+  
+  .section2 h2:after,
+  .section4 h2:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 40%;
+    background-color: #ee3d32;
+    top: 100%;
+    left: 0%;
+    margin: 10px 0px;
+  }
+  
+  .section2 p {
+    font-size: 1.5rem;
+  }
+  
+  .section2 p span {
+    font-style: italic;
+  }
+  
+  .section3 .container-fluid .col-12 > p,
+  .section3 .layer p,
+  .section4 .container-fluid .col-md-6 > p {
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  
+  .section3 h2,
+  .section4 h2 {
+    color: black;
+    font-size: 45px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .section3 h2:after {
+    content: "";
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    top: 110%;
+    background-color: #ee3d32;
+    left: 45%;
+  }
+  
+  .section3 .layer div {
+    bottom: 5%;
+    left: 5%;
+  }
+  
+  .section4 p {
+    font-size: 20px !important;
+  }
+  
+  .section4 h2:after {
+    width: 30%;
+  }
+  
+  .section4 ul li {
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .section4 ul li :after {
+    content: ">";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 0%;
+    top: 10%;
+    color: #1c6eb4;
+    font-size: 15px;
+  }
+  
+  .section5 .caption {
+    bottom: 10%;
+  }
+  
+  .section5 .caption h3 {
+    font-size: 30px;
+  }
+  
+  .section5 .btn-white {
+    background-color: #fff;
+    color: #555 !important;
+    border: none;
+    padding: 10px 40px !important;
+    transition: all 0.5s;
+    font-size: 20px;
+  }
+  
+  .section5 .btn-white:hover {
+    background-color: #ee3d32;
+    color: #fff !important;
+  }
+  
+  .section6 .caption {
+    top: 0%;
+    left: 20%;
+    right: 2%;
+    background-color: rgb(52, 109, 180, 0.6);
+  }
+  
+  .section6 .caption h3::before {
+    content: "";
+    background-color: #ee3d32;
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  
+  .section6 .caption p {
+    font-size: 20px;
+  }
+  
+  .section6 p {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  
+  .section6 .icons i {
+    font-size: 40px;
+    color: #196cb3;
+    font-weight: 100;
+  }
+  
+  .section7 .item {
+    background-color: #f5f9fc;
+    border: solid 1px #2185d6;
+  }
+  
+  .section7 .item i {
+    color: rgb(52, 109, 180, 0.8);
+    font-size: 40px;
+  }
+  
+  .section7 .item p {
+    font-size: 20px;
+  }
+  
+  .section7 .item .Name {
+    text-align: right;
+    color: #99bcdb;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+  
+  .section7 .item .Name:before {
+    content: "";
+    background-color: #ee3d32;
+    position: absolute;
+    height: 3px;
+    width: 20%;
+    top: 0%;
+    left: 80%;
+  }
+  
+  .section8 {
+    background-image: url("../../assets/images/section8.jpg");
+    background-size: 100% 100%;
+  }
+  
+  .section8 h3 {
+    font-size: 45px;
+  }
+  
+  .section8 h3::before {
+    content: "";
+    background-color: #ee3d32;
+    height: 3px;
+    width: 20%;
+    position: absolute;
+    top: 0%;
+  }
+  
+  .section8 p {
+    font-size: 20px;
+  }
+  
+  
+  @media (max-width: 992px) {
+    .section1 p,
+    .section1 h1 {
+      font-size: 25px !important;
+      padding: 10px !important;
+    }
+  
+    .section2 p,
+    .section2 h2 {
+      width: 100% !important;
+    }
+  
+    .section4 p,
+    .section4 h2 {
+      width: 100% !important;
+    }
+  
+    .section6 p {
+      width: 100% !important;
+    }
+  
+    .section8 h3 {
+      font-size: 25px !important;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .section1 {
+      font-size: 20px;
+      height: 400px !important;
+    }
+  
+    .section5 .caption {
+      left: 1% !important;
+    }
+  
+    .section6 .caption {
+      left: 2% !important;
+    }
+  
+    .section8 .row {
+      height: 200px;
+      padding: 0px !important;
+    }
+  
+    .section8 button {
+      padding: 5px !important;
+      margin: 0px !important;
+    }
+  }

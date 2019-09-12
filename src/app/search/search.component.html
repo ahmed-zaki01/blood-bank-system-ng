@@ -1,1 +1,177 @@
-<p>search works!</p>
+<section id="search">
+  <div class="row ">
+    <div class="col d-flex justify-content-center align-items-center">
+      <div class="container text-center p-5 d-flex justify-content-center align-items-center ">
+        <img src="../images/8038134.jpg" id="userimg" class=" img-fluid" style="width: 500px; height: 175px;" alt="">
+        <div id="caption" class="w-70 position-absolute" style="bottom: 50px;">
+          <form action="searchdb.php" method="post">
+            <div class="form-row align-items-center">
+              <div class="col-auto">
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                  <option selected disabled value="null">City</option>
+                  <option value="Alexandria">Alexandria</option>
+                  <option value="Giza">Giza</option>
+                  <option value="Ismailia">Ismailia</option>
+                  <option value="Mansoura">Mansoura</option>
+                  <option value="Tanta">Tanta</option>
+                </select>
+              </div>
+              <div class="col-auto">
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                  <option selected disabled value="null">Boold Type</option>
+                  <option value="O+">O+</option>
+                  <option value="O-">O-</option>
+                  <option value="A+">A+</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B-">B-</option>
+                  <option value="AB+">AB+</option>
+                  <option value="AB-">AB-</option>
+                </select>
+              </div>
+              <div class="col-auto">
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                  <option selected disabled value="null">Status</option>
+                  <option value="Married">Married</option>
+                  <option value="Unmarried">Unmarried</option>
+                </select>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Search<i
+                    class="fab fa-facebook text-white m-2"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+</section>
+
+<section id="rseult" hidden="true">
+  <div class="row">
+
+
+    <div class="col-md-4 m-auto p-4">
+
+      <div class="card" style="width: 20rem;">
+        <iframe width="100%" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://maps.google.com/maps?q=<?php echo $marr['LatitudeDegree']?>°<?php echo $marr['LatitudeMinutes'] ?>'<?php echo $marr['LatitudeSeconds'] ?>&quot;<?php echo $marr['LatitudeCoordinate'] ?>,<?php echo $marr['LongitudeDegree']?>°<?php echo $marr['LongitudeMinutes']?>'
+                    <?php echo $marr['LongitudeSeconds'] ?>&quot;<?php echo $marr['LongitudeCoordinate']; ?>&hl=es;z=14&amp;output=embed">
+
+        </iframe>
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-md-4 m-auto p-4">
+
+      <div class="card" style="width: 20rem;">
+        <iframe width="100%" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://maps.google.com/maps?q=<?php echo $marr['LatitudeDegree']?>°<?php echo $marr['LatitudeMinutes'] ?>'<?php echo $marr['LatitudeSeconds'] ?>&quot;<?php echo $marr['LatitudeCoordinate'] ?>,<?php echo $marr['LongitudeDegree']?>°<?php echo $marr['LongitudeMinutes']?>'
+                    <?php echo $marr['LongitudeSeconds'] ?>&quot;<?php echo $marr['LongitudeCoordinate']; ?>&hl=es;z=14&amp;output=embed">
+
+        </iframe>
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-md-4 m-auto p-4">
+
+      <div class="card" style="width: 20rem;">
+        <iframe width="100%" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://maps.google.com/maps?q=<?php echo $marr['LatitudeDegree']?>°<?php echo $marr['LatitudeMinutes'] ?>'<?php echo $marr['LatitudeSeconds'] ?>&quot;<?php echo $marr['LatitudeCoordinate'] ?>,<?php echo $marr['LongitudeDegree']?>°<?php echo $marr['LongitudeMinutes']?>'
+                    <?php echo $marr['LongitudeSeconds'] ?>&quot;<?php echo $marr['LongitudeCoordinate']; ?>&hl=es;z=14&amp;output=embed">
+
+        </iframe>
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-md-4 m-auto p-4">
+
+      <div class="card" style="width: 20rem;">
+        <iframe width="100%" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://maps.google.com/maps?q=<?php echo $marr['LatitudeDegree']?>°<?php echo $marr['LatitudeMinutes'] ?>'<?php echo $marr['LatitudeSeconds'] ?>&quot;<?php echo $marr['LatitudeCoordinate'] ?>,<?php echo $marr['LongitudeDegree']?>°<?php echo $marr['LongitudeMinutes']?>'
+                    <?php echo $marr['LongitudeSeconds'] ?>&quot;<?php echo $marr['LongitudeCoordinate']; ?>&hl=es;z=14&amp;output=embed">
+
+        </iframe>
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-md-4 m-auto p-4">
+
+      <div class="card" style="width: 20rem;">
+        <iframe width="100%" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://maps.google.com/maps?q=<?php echo $marr['LatitudeDegree']?>°<?php echo $marr['LatitudeMinutes'] ?>'<?php echo $marr['LatitudeSeconds'] ?>&quot;<?php echo $marr['LatitudeCoordinate'] ?>,<?php echo $marr['LongitudeDegree']?>°<?php echo $marr['LongitudeMinutes']?>'
+                    <?php echo $marr['LongitudeSeconds'] ?>&quot;<?php echo $marr['LongitudeCoordinate']; ?>&hl=es;z=14&amp;output=embed">
+
+        </iframe>
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-md-4 m-auto p-4">
+
+      <div class="card" style="width: 20rem;">
+        <iframe width="100%" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://maps.google.com/maps?q=<?php echo $marr['LatitudeDegree']?>°<?php echo $marr['LatitudeMinutes'] ?>'<?php echo $marr['LatitudeSeconds'] ?>&quot;<?php echo $marr['LatitudeCoordinate'] ?>,<?php echo $marr['LongitudeDegree']?>°<?php echo $marr['LongitudeMinutes']?>'
+                    <?php echo $marr['LongitudeSeconds'] ?>&quot;<?php echo $marr['LongitudeCoordinate']; ?>&hl=es;z=14&amp;output=embed">
+
+        </iframe>
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>

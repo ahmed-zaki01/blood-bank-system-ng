@@ -1,0 +1,20 @@
+.location #loc1 {
+  cursor: pointer;
+  color: #196cb3;
+  font-weight: bold;
+}
+.location a {
+  color: #555555;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+.location a:hover,
+.location #loc1LINK:hover {
+  color: #acbecc;
+  text-decoration: underline;
+}
+.direction:hover {
+  color: cornsilk;
+  background-color: black;
+}

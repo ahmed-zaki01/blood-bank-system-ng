@@ -1,0 +1,14 @@
+.view-request h4 {
+  font-size: 0.8rem;
+}
+
+.view-request h4 span {
+  font-size: 0.9rem;
+  color: #454545;
+}
+
+.card-header h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #dc3545;
+}

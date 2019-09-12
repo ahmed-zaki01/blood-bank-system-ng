@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -14,6 +15,8 @@ import { LoginComponent } from './login/login.component';
 import { SearchComponent } from './search/search.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +31,14 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     LoginComponent,
     SearchComponent,
     SignUpComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

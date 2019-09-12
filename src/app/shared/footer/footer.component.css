@@ -1,0 +1,20 @@
+/* start Footer */
+
+footer #footer {
+    background-color: #dc3545;
+  }
+  
+  #footer ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  
+  #footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  /* End Footer */
+  
