@@ -1,0 +1,110 @@
+.about_banner{
+    background: url("../../assets/images/about_banner.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.about_banner h2{
+    font-size: 3rem;
+    margin-left: 10%
+}
+
+.help_way{
+    margin-top: 100px;
+}
+
+.help_details{
+    padding-left: 100px;
+}
+
+.help_img{
+    background: url('../../assets/images/section4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px
+}
+
+.help_details span{
+    font-weight: 600;
+    color: #196cb3;
+    font-size: .8rem;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+
+.help_details h2{
+    font-size: 3rem;
+    position: relative;
+}
+
+.help_details h2::after{
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    height: 3px;
+    width: 10%;
+    background: #ee3d32;
+}
+
+.help_details p{
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.help_list li{
+    position: relative;
+    margin-bottom: 15px ;
+    width: 70%;
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.help_list li::before{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: -10%;
+    top: 19%;
+    color: #196cb3;
+    font-size: 12px;
+}
+
+.offer_details{
+    width: 60%;
+}
+
+.offer_img{
+    background: url('../../assets/images/offer_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 40%;
+}
+
+.offer_details h2{
+    font-size: 3rem;
+}
+
+
+.call-us {
+    background-image: url("../../assets/images/about-bg8.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+.call-us h2 {
+    font-size: 2.5rem;
+}
+
+.call-us a {
+    margin-left: 100px;
+    font-size: 1.1rem;
+}

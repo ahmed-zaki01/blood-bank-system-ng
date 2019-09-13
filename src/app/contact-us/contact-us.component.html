@@ -1,1 +1,41 @@
-<p>contact-us works!</p>
+<section id="contactUs">
+    <div class="container-fluid layer p-5">
+      <div class="row">
+        <!--Geolocation-->
+        <div class="col-md-4 p-5">
+            <div class="mapouter"><div class="gmap_canvas rounded"><iframe class="w-100" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=elshiekh%20zayed%20city&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;}</style></div>
+        </div>
+        <!--information-->
+        <div class="col-md-4 p-5">
+          <div class="p-2"><label class="font-weight-bold">Address:&nbsp;</label><p> El Shiekh Zayed City, Giza, Egypt</p></div>
+          <hr class="w-50 bg-danger"/>
+          <div class="p-2">
+              <label class="font-weight-bold">Phone:&nbsp;</label><p>+2 01220406725</p><p>+2 01032300541</p>
+          </div>
+          <hr class="w-50 bg-danger"/>
+          <div class="p-2"><label class="font-weight-bold">Email:&nbsp;</label><p>eng.wafaa.soliman@gmail.com</p></div>
+          <hr class="w-50 bg-danger"/>
+          <div class="p-2"><label class="font-weight-bold">Working Hours:&nbsp;</label><p>Sunday - Friday: 9:00 am to 6:00 pm</p></div>
+        </div>
+        <!--contact form-->
+        <div class="col-md-4 p-5">
+          <div class="text-center"><h3 class="p-3">Write a Message</h3></div>
+          <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name *">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email *">
+              </div>
+              <div class="form-group">
+                  <input type="phone" class="form-control" id="formGroupExampleInput2" placeholder="Phone *">
+              </div>
+              <div class="form-group">
+                  <textarea  rows="5" class="form-control" id="formGroupExampleInput2" placeholder="Message *"></textarea>
+              </div>
+              <div class="text-center p-3"><input type="submit" class="btn btn-danger text-uppercase font-weight-bold px-5"></div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
