@@ -22,7 +22,8 @@
     background: url('../../assets/images/section4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px
+    background-position: center;
+    height: 500px;
 }
 
 .help_details span{
@@ -76,16 +77,11 @@
     font-size: 12px;
 }
 
-.offer_details{
-    width: 60%;
-}
-
 .offer_img{
     background: url('../../assets/images/offer_img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    width: 40%;
 }
 
 .offer_details h2{
