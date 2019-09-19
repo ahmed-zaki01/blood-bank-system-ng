@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
+
 
 @Component({
   selector: 'app-send-request',
@@ -6,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./send-request.component.css']
 })
 export class SendRequestComponent implements OnInit {
+
+  requestForm = new FormGroup({
+    name: new FormControl('')
+  });
+ 
 
   constructor() { }
 

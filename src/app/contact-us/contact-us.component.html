@@ -20,7 +20,7 @@
         <!--contact form-->
         <div class="col-md-4 p-5">
           <div class="text-center"><h3 class="p-3">Write a Message</h3></div>
-          <form>
+          <form [formGroup]="contactForm">
               <div class="form-group">
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name *">
               </div>

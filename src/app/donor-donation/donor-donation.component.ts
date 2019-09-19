@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-donor-donation',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./donor-donation.component.css']
 })
 export class DonorDonationComponent implements OnInit {
+  donorForm = new FormGroup({
+    name: new FormControl(),
+  });
 
   constructor() { }
 

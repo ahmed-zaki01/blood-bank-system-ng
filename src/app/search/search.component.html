@@ -4,7 +4,7 @@
       <div class="container text-center p-5 d-flex justify-content-center align-items-center ">
         <img src="../images/8038134.jpg" id="userimg" class=" img-fluid" style="width: 500px; height: 175px;" alt="">
         <div id="caption" class="w-70 position-absolute" style="bottom: 50px;">
-          <form action="searchdb.php" method="post">
+          <form action="searchdb.php" method="post" [formGroup]="searchGroup">
             <div class="form-row align-items-center">
               <div class="col-auto">
                 <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
